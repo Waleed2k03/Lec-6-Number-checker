@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  cout << "Enter the number to check whether it is positive, negative or zero\n";
+  double number;
+  cin >> number;
+  if (number == 0)
+  {
+	  cout << "The number you entered is zero";
+  }
+else if (number > 0)
+{
+cout << "The number you entered is positive";
+ }
+else if (number < 0)
+{
+	cout << "The number you entered is negative";
+ }
+else
+{
+cout << "Incorrect input";
+ }
+}
